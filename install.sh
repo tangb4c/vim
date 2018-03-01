@@ -5,11 +5,11 @@
 # File Name: init_vim.sh
 # Description: 
 #########################################################################
-yum install vim -y
+#yum install vim -y
 
 
 #安装依赖项
-yum instal ctag
+#yum install ctag
 pip install pyflakes
 
 
@@ -19,6 +19,6 @@ git clone https://github.com/gmarik/vundle.git  ~/.vim/bundle/vundle
 
 vim +BundleInstall +qall
 
-cp ~/.vim/bundle/vim-colorschemes/colors/ -rf ~/.vim/
+cp -rf ./.vim/bundle/vim-colorschemes/colors ~/.vim/
 
 echo "Install Vim Success!"
