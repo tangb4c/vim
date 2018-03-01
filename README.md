@@ -18,7 +18,7 @@
 
 ###安装方式1：完整方式 
 ```
-git clone https://github.com/manlinting/vim ~/
+git clone https://github.com/tangb4c/vim-config ~/
 ```
 
 ###安装方式2： 只下载.vimrc
